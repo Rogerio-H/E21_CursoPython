@@ -1,3 +1,6 @@
 # E21_CursoPython
+mais alguns testes
 
-to fazendo mais testes
+
+
+:)
