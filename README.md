@@ -1,6 +1,3 @@
 # E21_CursoPython
-mais alguns testes
+Readme do curso Entra21 Python
 
-
-
-:)
