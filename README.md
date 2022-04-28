@@ -1,15 +1,18 @@
 # E21_CursoPython
 Readme do curso Entra21 Python
 
-Resumo GitHub 
+##  Resumo GitHub (26/04/22) 
 
-git add .
+- git add .
 
-git commit -m "TL;TR"
+- git commit -m "TL;TR"
 
-git push
+- git push
 
  - Outro usuário usando mesmo repositório = git pull
 
- 
-<!-- nao vai aparecer no git? -->
+ ### 28/04/22
+
+ - Visualização Markdown pelo atalho Ctrl + Shift + V 
+  - Dica extensão VSCode: Mardown All in One
+<!-- nao vai aparecer no .md -->
