@@ -20,6 +20,7 @@ Readme do curso Entra21 Python
 ### 29/04/22
 
  - Breve introdução à lógica (algoritmos)
+  
   Algoritmo de exemplo (comer pizza)
  - pegar o celular 
  - pesquisar numero da pizzaria 
