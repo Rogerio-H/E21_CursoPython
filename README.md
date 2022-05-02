@@ -33,4 +33,4 @@ Readme do curso Entra21 Python
  - levar pizza até a mesa
  - abrir tampa da caixa de pizza
  - cortar a pizza 
- - comer a pizza inteira na mão porque a fome tava grande )
+ > - comer a pizza inteira na mão porque a fome tava grande )
