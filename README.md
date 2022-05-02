@@ -22,7 +22,7 @@ Readme do curso Entra21 Python
  - Breve introdução à lógica (algoritmos)
   
   Algoritmo de exemplo (comer pizza)
- - pegar o celular 
+ > - pegar o celular 
  - pesquisar numero da pizzaria 
  - ligar para pizzaria 
  - pedir pizza de calabresa
