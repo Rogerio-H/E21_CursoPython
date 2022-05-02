@@ -21,7 +21,7 @@ Readme do curso Entra21 Python
 
  - Breve introdução à lógica (algoritmos)
   
-  Algoritmo de exemplo (comer pizza)
+  Algoritmo de exemplo (comer pizza):
  ```
  - pegar o celular 
  - pesquisar numero da pizzaria 
@@ -34,5 +34,5 @@ Readme do curso Entra21 Python
  - levar pizza até a mesa
  - abrir tampa da caixa de pizza
  - cortar a pizza 
- - comer a pizza inteira na mão porque a fome tava grande )
+ - comer a pizza inteira na mão porque a fome tava grande 
 ```
