@@ -36,3 +36,14 @@ Readme do curso Entra21 Python
  - cortar a pizza 
  - comer a pizza inteira na mão porque a fome tava grande 
 ```
+### 02/05/22
+ - Reassistir aula no YT
+
+### 03/05/22
+ - Reassistir aula no YT
+
+### 04/05/22
+ - Aula de Inglês
+
+### 05/05/22
+ 
