@@ -46,4 +46,12 @@ Readme do curso Entra21 Python
  - Aula de Inglês
 
 ### 05/05/22
- Formação dos grupos (definitivos?)
+ - Formação dos grupos (definitivos?)
+
+### 06/05/22
+ - Como ignorar alterações feitas antes de um commit
+ ```
+ git reset
+ git clean -fd
+ git restore .
+ ``` 
