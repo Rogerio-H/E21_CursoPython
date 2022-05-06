@@ -15,7 +15,7 @@ Readme do curso Entra21 Python
 
  - Visualização Markdown pelo atalho Ctrl + Shift + V 
  - Dica extensão VSCode: Mardown All in One
-<!-- nao vai aparecer no .md -->
+
 
 ### 29/04/22
 
@@ -46,4 +46,4 @@ Readme do curso Entra21 Python
  - Aula de Inglês
 
 ### 05/05/22
- 
+ Formação dos grupos (definitivos?)
