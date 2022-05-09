@@ -55,3 +55,5 @@ Readme do curso Entra21 Python
  git clean -fd
  git restore .
  ``` 
+ - Objetivo principal com as Branchs é unificá-las
+ - Portugol
