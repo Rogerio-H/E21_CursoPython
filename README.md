@@ -1,6 +1,10 @@
 # E21_CursoPython
 Readme do curso Entra21 Python
 
+##Playlist das aulas YT: 
+
+https://youtube.com/playlist?list=PL2WEynOui8TTNWIFuBk62En4H2g9J6A-d
+
 ##  Resumo GitHub (26/04/22) 
 
 - git add .
