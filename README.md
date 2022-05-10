@@ -61,3 +61,11 @@ https://youtube.com/playlist?list=PL2WEynOui8TTNWIFuBk62En4H2g9J6A-d
  ``` 
  - Objetivo principal com as Branchs é unificá-las
  - Portugol
+
+ ### 09/05/22
+
+ - Portugol: Operações Aritméticas
+
+ ### 10/05/22
+
+ 
