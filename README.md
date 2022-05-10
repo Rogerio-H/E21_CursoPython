@@ -68,4 +68,22 @@ https://youtube.com/playlist?list=PL2WEynOui8TTNWIFuBk62En4H2g9J6A-d
 
  ### 10/05/22
 
- 
+ - Exercicio 1 pt. 1:
+```
+programa {
+	funcao inicio() {
+		inteiro base, altura, area
+		
+		escreva("Informe a base do retângulo em centimetros: ")
+		leia (base)
+		
+		escreva("Informe a altura do retângulo em centimetros: ")
+		leia(altura)
+		
+		area = base * altura
+		
+		escreva("A area do retângulo é: ", area, "cm")
+		
+	}
+}
+```
