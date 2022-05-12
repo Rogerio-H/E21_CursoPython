@@ -1,0 +1,45 @@
+programa {
+	funcao inicio() {
+		inteiro base, altura, area
+		
+		escreva("Informe a base do retângulo em centimetros: ")
+		leia (base)
+		
+		escreva("Informe a altura do retângulo em centimetros: ")
+		leia(altura)
+		
+		area = base * altura
+		
+		escreva("A area do retângulo é: ", area, "cm")
+		
+	}
+}
+
+-----------------------------------------------------------------------------------------
+
+programa {
+	funcao inicio() {
+		
+		inteiro a, b
+		
+		escreva("Digite dois números: ")
+		leia (a)
+		leia (b)
+		
+	    se(a == b)
+	        escreva("Os números são iguais")
+        se(a > b)
+            escreva(a, " é maior que ", b)
+        se(b > a)
+            escreva(b, " é maior que ", a)    
+	}
+}
+
+/*Elabore um algoritmo que receba dois numeros pelo teclado e compare se os numeros são:
+- iguais
+- A < B 
+- B < A 
+E informe o usuário. 
+*/
+
+--------------------------------------------------------------------------------------------------
