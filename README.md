@@ -90,3 +90,13 @@ programa {
 ### Aula Magna (11/05/22)
 
 -----------------------------
+### 16/05/22
+
+Começamos Python ! 
+
+```
+hw = ('Hello World')
+
+for i in range(1,5):    
+    print(hw)
+``` 
