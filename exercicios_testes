@@ -104,4 +104,128 @@ programa {
     }
 }
 
-/* Versão 002 */
+/* exercicio 1b 
+
+
+#Exercicio: 001b: Versão 001.
+
+    Calcule a area de um retangulo.
+    Sem solicitar dados ao usuário.
+    Para isto defina as variáveis: ladoA, LadoB, resultado. 
+    Imprima o resultado.
+
+    integer ladoA, ladoB, resultado 
+    ladoA = 60
+    ladoB = 80
+    resultado = ladoA x ladoB
+    escreva(resutlado)
+
+    Dados:Coleta
+    BE:Processamento
+    FE:Impressao
+
+#Exercicio: 001b: versão 002.
+
+    Calculo o perimetro de um retangulo.
+    Utilize as mesmas variáveis da versão 001.
+
+#Exercicio: 001b: versão 003.
+
+    Solicite os dados do usuário para calcular os dados do retangulo.
+    Utilize as mesmas variaveis. 
+    Imprima o resultado da área do retangulo e o perimetro do retangulo.
+
+#Exercicio: 001b: versão 004. 
+
+    Adicione uma condicional simples. 
+    Utilize os resultados acima e faça o seguinte teste:
+    Informe em uma condicional simples quem é maior, perimetro ou a area. 
+    (vamos descondiderar as unidades m2 e mlinear), apenas pensar nas unidades.
+*/\
+programa {
+	funcao inicio() {
+		
+		inteiro ladoA, ladoB, perimetro, area
+		
+		escreva("Digite a base e a altura do retângulo: ")
+		leia(ladoA)
+		leia(ladoB)
+		
+		area = ladoA * ladoB
+		perimetro = ladoA * 2 + ladoB * 2
+		
+		escreva("área: ", area,"\nperímetro: ", perimetro)
+		
+ 		se(area > perimetro){
+	    escreva("\nárea maior que o perímetro\n")
+		}
+	    senao se(perimetro > area){
+	    escreva("\nperímetro maior que a área")
+	    }       	    
+	}
+}
+
+
+/* ex. 002b */
+
+programa {
+	inclua biblioteca Matematica --> mat
+    
+    funcao inicio() {
+		
+		real resultado, a, b, raiz
+		
+		escreva("Digite dois números: ")
+        leia(a)
+        leia(b)
+
+        resultado = a * b
+
+        escreva("\nresultado da multiplação: ", resultado)     
+
+        raiz = mat.raiz (resultado, 2.0) 
+        
+        escreva("\nResultado raíz: ", raiz)
+	}
+}
+
+/* ex. 003b */
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro valor
+        real resultado
+
+        escreva("Digite um valor: ")
+        leia(valor)
+
+        se (valor < 0){
+        escreva("NUMERO NEGATIVO")
+        }
+        
+        senao se (valor >= 0 e valor <= 9){
+        escreva("Zero a Nove")
+        }
+        
+        senao se (valor >= 10 e valor <= 19){
+        escreva("Dez a Dezenove")
+        }
+
+        senao se (valor >= 20 e valor <= 29){
+        escreva("Vinte a Vinte e nove")
+        }
+        
+        senao se (valor >= 30 e valor <= 39){
+        escreva("Trinta a Trinta e nove")
+        }
+
+        senao se (valor >= 40){
+        escreva("Quarenta ou maior")
+        }
+
+        resultado = valor * 0.5
+        escreva("\n50 por cento do valor informado é: ", resultado)         
+    }
+}
