@@ -1,5 +1,5 @@
 # e047pandas.py
-
+'''
 from pandasfile import importa_planilha
 
 # Selecione o tipo de exemplo que deseja mostrar
@@ -25,14 +25,14 @@ if (exemplo == 1):
         print(f' Items: {i} ')
 
     '''     
-    Values: {
-        'Nome': 'Adriano', 
-        'Telefone': 67992636781
-        } 
-    Values: {'Nome': 'Karina', 'Telefone': 67992636782} 
-    Values: {'Nome': 'Mario', 'Telefone': 67992636783} 
-    Values: {'Nome': 'Neia', 'Telefone': 67992636784} 
-    '''
+    # Values: {
+    #     'Nome': 'Adriano', 
+    #     'Telefone': 67992636781
+    #     } 
+    # Values: {'Nome': 'Karina', 'Telefone': 67992636782} 
+    # Values: {'Nome': 'Mario', 'Telefone': 67992636783} 
+    # Values: {'Nome': 'Neia', 'Telefone': 67992636784} 
+'''
     for i in dd.values():
         print(f' Values: {i} ')
 
@@ -47,9 +47,10 @@ if (exemplo == 2 ):
     dd = importa_planilha(colunas)
 
     # Imprime todos os values
+    
     '''
-    Values: {'Nome': 'Adriano', 'Telefone': 67992636781}     
-    '''
+    ### Values: {'Nome': 'Adriano', 'Telefone': 67992636781}     
+'''
 
     for i in dd.values():
         # Exemplo 2
@@ -149,3 +150,15 @@ if (exemplo == 3):
             print(b[c],end=' ')
         print('')
     print("======================================")
+'''
+from pandasfile import importa_planilha
+
+colunas = list(['id', 'Nome', 'Idade', 'Telefone', 'CEP', 'N1'])
+dd = importa_planilha(colunas)
+
+for i in dd.items():
+        print(f' Items: {i} ')
+
+
+
+

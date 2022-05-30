@@ -6,7 +6,7 @@ from modulo import situacao
 def media(aluno):
     # print(aluno)
     boletim = []
-
+    medias = situacao
     for i in aluno:
         media_r = round(sum(i['Notas'])/len(i['Notas']), 1),
         
@@ -14,7 +14,7 @@ def media(aluno):
         {
             'Nome' : i['Nome'],
             'Media de Notas' : media_r,
-            'Boletim': situacao
+            'Boletim': medias
         }
     )
     return boletim
