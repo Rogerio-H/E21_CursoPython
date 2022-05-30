@@ -1,0 +1,10 @@
+id,Nome,Idade,Telefone,CEP,Rua ,Numero,Apto,N1,N2,N3,N4,Media,
+1,Adriano,47,67992636781,89010230,Rua Batman,70,,"7,00","7,00","3,00","5,00","5,50",Adriano 5.5 Reprovado
+2,Karina,45,67992636782,89010230,Rua Capitão America,150,,"8,10","7,50","5,40","3,00","6,00",Karina 6.0 Reprovado
+3,Mario,65,67992636783,89010230,Rua Flash,s/n,,"3,00","7,00","7,00","7,00","6,00",Mario 6.0 Reprovado
+4,Neia,40,67992636784,89010230,Rua Homen-Aranha,302,,"10,00","8,10","7,50","7,50","8,28",Neia 8.28 Aprovado
+5,Luana,19,67992636785,89010230,Rua Homem de Ferro,3080,,"5,69","7,00","14,00","7,00","8,42",Luana 8.42 Aprovado
+6,Pedro,27,67992636786,89010230,Rua Mulher Maravilha,567,1201,"8,10","7,50","17,00","8,10","10,18",Pedro 10.18 Aprovado
+7,Juan,32,67992636787,89010230,Rua Increvel Hulk,458,,"3,00","4,00","5,00","6,00","4,50",Juan 4.5 Reprovado
+8,Marcelo,34,67992636788,89010230,Rua Superman,178,,"8,00","8,10","7,50","7,50","7,78",Marcelo 7.78 Aprovado
+9,Carla,49,67992636789,89010230,Rua Dr Estranho,40,1302,"10,00","10,00","10,00","10,00","10,00",Carla 10.0 Aprovado
