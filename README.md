@@ -100,3 +100,10 @@ hw = ('Hello World')
 for i in range(1,5):    
     print(hw)
 ``` 
+
+### 06/06/22
+
+Dei uma largada nesse readme mas não foi por mal! 
+
+Nesses ultimos dias eram puro exercícios de Py.
+
