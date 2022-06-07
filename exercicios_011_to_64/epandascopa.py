@@ -7,3 +7,5 @@ dd = importa_planilha(colunas)
 
 for i in dd.items():
         print(f' Items: {i} ')
+
+#fazer algumas alteraçoes dps (values) etc etc
