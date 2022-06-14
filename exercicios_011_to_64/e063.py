@@ -11,7 +11,7 @@ while True:
     print(f"\033[1;31;40mLista de médicos:\n \033[0;37;40m")
 
     for k, v in medico.items():
-        print(f'{k}:\n - {v}')
+        print(f'{k}:\n - {v}\n')
 
     agend = input('\nDigite o nome do médico que gostaria de ser atendido: ').title()
     if medico.get(agend):
