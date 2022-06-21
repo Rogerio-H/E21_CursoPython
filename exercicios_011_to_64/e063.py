@@ -5,6 +5,9 @@
 #    1.  Modularize as verificações de usuario. (ou crie uma função para limpar o main ao maximo)
 #    2.  Modularize as escolha de médico. (ou crie uma função)         3.  
 #    4.  Remova todas as constantes do programa utilizando os dados dos modulos para imprimir e testar.
+
+#===============Não está feito================
+
 from medicos import medico
 
 while True:
