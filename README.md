@@ -107,3 +107,6 @@ Dei uma largada nesse readme mas não foi por mal!
 
 Nesses ultimos dias eram puro exercícios de Py.
 
+### 23/06/22
+Nesses últimos dias percebi que eu demoro pra fazer vários códigos, <br /> porque fico querendo deixar o código mais perfeito possível. <br>Não sei se é um defeito ou uma qualidade, creio que depende.
+
