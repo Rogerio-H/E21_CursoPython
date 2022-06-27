@@ -12,10 +12,10 @@ while True:
     for k, v in medico.items():
         print(f'{k}:\n - {v}')
     
-    agend = input('\nDigite o nome do médico que gostaria de ser atendido: ').title()
+    agenda = input('\nDigite o nome do médico que gostaria de ser atendido: ').title()
     
-    if medico.get(agend):
-        print(f'\nConsulta agendada com: {medico[agend]}')
+    if medico.get(agenda):
+        print(f'\nConsulta agendada com: {medico[agenda]}')
         break
     else:
         print("\nMédico não existente, tente novamente\n")
