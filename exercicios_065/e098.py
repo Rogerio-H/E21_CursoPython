@@ -10,7 +10,7 @@ while True:
         case "A":
             print("Gabaritou")
             break
-        case "B" | "C" | "D" | "E":
+        case "B" | "C":
             print("Aprovado!")
             break
         case "D" | "E":
