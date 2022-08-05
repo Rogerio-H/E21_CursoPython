@@ -1,6 +1,6 @@
 -- testesmd4.sql
 
-BEGIN TRANSACTION;
+\
 DROP TABLE IF EXISTS CIDADES;
 
 
