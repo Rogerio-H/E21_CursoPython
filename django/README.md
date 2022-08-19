@@ -24,4 +24,7 @@ django-admin startproject proj .
 
 django-admin startapp app1
 
+###Testar
+python manage.py runserver
+
 ### Deploy da aplicação web para o heroku.com
