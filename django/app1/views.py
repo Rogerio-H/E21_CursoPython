@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from .forms import PessoasForm
 from django.http import HttpResponseRedirect
+from .models import Pessoas
 
 # Create your views here.
 
@@ -40,13 +41,19 @@ def pessoasview(request):
     if request.method == 'POST':
         form = PessoasForm(request.POST)
         if form.is_valid():
-            return HttpResponseRedirect('/thanks/')
+            nova_pessoa = form.save(commit=False)
+            nova_pessoa.pessoa_nome = form.cleaned_data['pessoa_nome']
+            nova_pessoa.pessoa_idade = form.cleaned_data['pessoa_idade']
+            nova_pessoa.save()
+            return HttpResponseRedirect('/pessoas/')
     else:
         form = PessoasForm()
-
+    pessoas = Pessoas.objects.all()
+    
     return render(request, 'pessoasview.html',
                   {
-                      'form': form
+                      'form': form,
+                      'pessoas' : pessoas
                   }
 
                   )

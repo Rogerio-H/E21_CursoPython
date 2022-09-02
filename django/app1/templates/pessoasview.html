@@ -8,7 +8,10 @@
         {% csrf_token %}  
         {{ form }}         
         <input type="submit" value="Submit">
-    </form>    
+    </form>
+    {% for i in pessoas %}   
+        <p> {{ i.pessoa_nome }} --> {{ i.pessoa_idade }} </p> 
+    {% endfor %}
 {% endblock %}
 
 

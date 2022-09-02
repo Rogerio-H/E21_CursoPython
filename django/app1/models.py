@@ -1,6 +1,5 @@
 from django.db import models
-from uuid import uuid4
-from datetime import datetime
+
 
 # Create your models here.
 
@@ -15,9 +14,8 @@ class Pessoas(models.Model):
     pessoa_idade = models.IntegerField(verbose_name="Idade",default=0)
     PessoaCreate = models.DateTimeField(verbose_name="TimeStamp",auto_now_add=True,blank=True)
     pessoa_ativo = models.CharField(max_length=1,default='S')
-    
-    # def __str__(self):
-    #     return '%s %s' % (self.pessoa_nome, self.pessoa_idade)
+    def __str__(self):
+        return '%s %s' % (self.pessoa_nome, self.pessoa_idade)
 
     class Meta:
         ordering = ('pessoa_nome', 'pessoa_idade')
